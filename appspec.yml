@@ -7,10 +7,10 @@ hooks:
   BeforeInstall:
      - location: build.bat
        runas: Administrator
-AfterInstall:
+  AfterInstall:
     - location: run.bat
       runas: Administrator
-ApplicationStart:
+  ApplicationStart:
     - location: run.bat
       runas: Administrator
       timeout: 4
