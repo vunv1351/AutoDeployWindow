@@ -10,8 +10,5 @@ hooks:
 AfterInstall:
     - location: build.bat
       runas: Administrator
-      timeout: 2000
-ApplicationStart:
-    - location: build.bat
-     runas: Administrator
-     timeout: 2000
+      timeout: 10
+
