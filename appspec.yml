@@ -10,5 +10,9 @@ hooks:
 AfterInstall:
     - location: run.bat
       runas: Administrator
-      timeout: 10
+      timeout: 4
+ApplicationStart:
+    - location: run.bat
+      runas: Administrator
+      timeout: 4
 
