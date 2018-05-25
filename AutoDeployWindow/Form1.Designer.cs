@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblusername = new System.Windows.Forms.Label();
             this.txtlogin = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -42,18 +42,18 @@
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // lblusername
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 61);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(33, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "name";
+            this.lblusername.AutoSize = true;
+            this.lblusername.Location = new System.Drawing.Point(30, 50);
+            this.lblusername.Name = "lblusername";
+            this.lblusername.Size = new System.Drawing.Size(56, 13);
+            this.lblusername.TabIndex = 1;
+            this.lblusername.Text = "user name";
             // 
             // txtlogin
             // 
-            this.txtlogin.Location = new System.Drawing.Point(99, 61);
+            this.txtlogin.Location = new System.Drawing.Point(99, 50);
             this.txtlogin.Name = "txtlogin";
             this.txtlogin.Size = new System.Drawing.Size(139, 20);
             this.txtlogin.TabIndex = 2;
@@ -64,7 +64,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.txtlogin);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblusername);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -76,7 +76,7 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblusername;
         private System.Windows.Forms.TextBox txtlogin;
     }
 }
