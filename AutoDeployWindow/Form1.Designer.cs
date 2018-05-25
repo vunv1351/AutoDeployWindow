@@ -31,6 +31,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.lblusername = new System.Windows.Forms.Label();
             this.txtlogin = new System.Windows.Forms.TextBox();
+            this.txtpass = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -58,11 +59,19 @@
             this.txtlogin.Size = new System.Drawing.Size(139, 20);
             this.txtlogin.TabIndex = 2;
             // 
+            // txtpass
+            // 
+            this.txtpass.Location = new System.Drawing.Point(99, 98);
+            this.txtpass.Name = "txtpass";
+            this.txtpass.Size = new System.Drawing.Size(139, 20);
+            this.txtpass.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.txtpass);
             this.Controls.Add(this.txtlogin);
             this.Controls.Add(this.lblusername);
             this.Controls.Add(this.button1);
@@ -78,6 +87,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lblusername;
         private System.Windows.Forms.TextBox txtlogin;
+        private System.Windows.Forms.TextBox txtpass;
     }
 }
 
