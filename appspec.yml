@@ -1,0 +1,13 @@
+version: 0.0
+os: windows
+files:
+  - source: \
+    destination: C:\Users\Administrator\Desktop\AutoDeploywindow
+hooks:
+  BeforeInstall:
+     - location: build.bat
+       runas: Administrator
+       timeout: 900
+     - location: build.bat
+       runas: Administrator
+       timeout: 900
