@@ -19,7 +19,8 @@ namespace AutoDeployWindow
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("ok");
+
+            MessageBox.Show("user name: "+ txtlogin.Text+"\n"+"pass: "+txtpass.Text);
         }
     }
 }
