@@ -33,6 +33,7 @@
             this.txtlogin = new System.Windows.Forms.TextBox();
             this.txtpass = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -48,7 +49,7 @@
             // lblusername
             // 
             this.lblusername.AutoSize = true;
-            this.lblusername.Location = new System.Drawing.Point(30, 50);
+            this.lblusername.Location = new System.Drawing.Point(30, 72);
             this.lblusername.Name = "lblusername";
             this.lblusername.Size = new System.Drawing.Size(56, 13);
             this.lblusername.TabIndex = 1;
@@ -56,7 +57,7 @@
             // 
             // txtlogin
             // 
-            this.txtlogin.Location = new System.Drawing.Point(99, 50);
+            this.txtlogin.Location = new System.Drawing.Point(99, 72);
             this.txtlogin.Name = "txtlogin";
             this.txtlogin.Size = new System.Drawing.Size(139, 20);
             this.txtlogin.TabIndex = 2;
@@ -77,11 +78,22 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "password";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(91, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(118, 46);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Login";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtpass);
             this.Controls.Add(this.txtlogin);
@@ -101,6 +113,7 @@
         private System.Windows.Forms.TextBox txtlogin;
         private System.Windows.Forms.TextBox txtpass;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
