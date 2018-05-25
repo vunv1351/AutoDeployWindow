@@ -32,6 +32,7 @@
             this.lblusername = new System.Windows.Forms.Label();
             this.txtlogin = new System.Windows.Forms.TextBox();
             this.txtpass = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -66,11 +67,21 @@
             this.txtpass.Size = new System.Drawing.Size(139, 20);
             this.txtpass.TabIndex = 3;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(33, 104);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(52, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "password";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtpass);
             this.Controls.Add(this.txtlogin);
             this.Controls.Add(this.lblusername);
@@ -88,6 +99,7 @@
         private System.Windows.Forms.Label lblusername;
         private System.Windows.Forms.TextBox txtlogin;
         private System.Windows.Forms.TextBox txtpass;
+        private System.Windows.Forms.Label label1;
     }
 }
 
