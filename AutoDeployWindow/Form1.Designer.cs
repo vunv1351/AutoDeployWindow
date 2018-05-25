@@ -35,13 +35,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(36, 174);
+            this.button1.Location = new System.Drawing.Point(112, 174);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 26);
             this.button1.TabIndex = 0;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = true;
@@ -50,7 +51,7 @@
             // lblusername
             // 
             this.lblusername.AutoSize = true;
-            this.lblusername.Location = new System.Drawing.Point(30, 72);
+            this.lblusername.Location = new System.Drawing.Point(106, 75);
             this.lblusername.Name = "lblusername";
             this.lblusername.Size = new System.Drawing.Size(56, 13);
             this.lblusername.TabIndex = 1;
@@ -58,14 +59,14 @@
             // 
             // txtlogin
             // 
-            this.txtlogin.Location = new System.Drawing.Point(99, 72);
+            this.txtlogin.Location = new System.Drawing.Point(175, 75);
             this.txtlogin.Name = "txtlogin";
             this.txtlogin.Size = new System.Drawing.Size(139, 20);
             this.txtlogin.TabIndex = 2;
             // 
             // txtpass
             // 
-            this.txtpass.Location = new System.Drawing.Point(99, 114);
+            this.txtpass.Location = new System.Drawing.Point(175, 117);
             this.txtpass.Name = "txtpass";
             this.txtpass.Size = new System.Drawing.Size(139, 20);
             this.txtpass.TabIndex = 3;
@@ -73,7 +74,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 120);
+            this.label1.Location = new System.Drawing.Point(109, 123);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 13);
             this.label1.TabIndex = 4;
@@ -83,7 +84,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(-2, 9);
+            this.label2.Location = new System.Drawing.Point(76, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(288, 46);
             this.label2.TabIndex = 5;
@@ -91,18 +92,29 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(138, 173);
+            this.button2.Location = new System.Drawing.Point(214, 173);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(75, 26);
             this.button2.TabIndex = 6;
             this.button2.Text = "cancel";
             this.button2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(112, 222);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(120, 17);
+            this.checkBox1.TabIndex = 7;
+            this.checkBox1.Text = "remember passwork";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(434, 284);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -126,6 +138,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
