@@ -22,5 +22,10 @@ namespace AutoDeployWindow
 
             MessageBox.Show("user name: "+ txtlogin.Text+"\n"+"pass: "+txtpass.Text);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
