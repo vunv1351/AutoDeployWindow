@@ -14,4 +14,7 @@ hooks:
     - location: run.bat
       runas: Administrator
       timeout: 4
+      - location: openapp.bat
+      runas: Administrator
+      timeout: 4
 
